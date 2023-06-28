@@ -3,52 +3,52 @@
 import Sample from "../classes/Sample";
 
 const USED_CARS = new Sample(
-  "S_001",
-  undefined,
+  1,
+  "sampleSrc1",
   "Used Car Dealerships",
-  undefined,
-  undefined,
-  undefined
+  "Description for Used Car Dealerships",
+  10000,
+  "sampleImg1"
 );
 const PAINTER = new Sample(
-  "S_002",
-  undefined,
+  2,
+  "sampleSrc2",
   "Painters",
-  undefined,
-  undefined,
-  undefined
+  "Description for Painters",
+  500,
+  "sampleImg2"
 );
 const LAWN_CARE = new Sample(
-  "S_003",
-  undefined,
+  3,
+  "sampleSrc3",
   "Lawn Care",
-  undefined,
-  undefined,
-  undefined
+  "Description for Lawn Care",
+  500,
+  "sampleImg3"
 );
 const ARTS_AND_CRAFTS = new Sample(
-  "S_004",
-  undefined,
+  4,
+  "sampleSrc4",
   "Arts and Crafts",
-  undefined,
-  undefined,
-  undefined
+  "Description for Arts and Crafts",
+  50,
+  "sampleImg4"
 );
 const PLUMBERS = new Sample(
-  "S_005",
-  undefined,
+  5,
+  "sampleSrc5",
   "Plumbers",
-  undefined,
-  undefined,
-  undefined
+  "Description for Plumbers",
+  50,
+  "sampleImg5"
 );
 const PRESSURE_WASHERS = new Sample(
-  "S_006",
-  undefined,
-  "Pressure Washers",
-  undefined,
-  undefined,
-  undefined
+  6,
+  "sampleSrc6",
+  "Plumbers",
+  "Description for Plumbers",
+  50,
+  "sampleImg6"
 );
 
 export {
