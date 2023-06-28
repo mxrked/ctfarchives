@@ -3,8 +3,21 @@
 @import "../../tools/themes/themes.scss";
 @import "../../tools/variables/variable.scss";
 
-// Desktop 
+// Fonts
+@font-face {
+  font-family: "FG Regular";
+  src: url("../../../fonts/FG_Regular.otf");
+}
+@font-face {
+  font-family: "FG Semibold";
+  src: url("../../../fonts/FG_Semibold.otf");
+}
+@font-face {
+  font-family: "FG Bold";
+  src: url("../../../fonts/FG_Bold.otf");
+}
 
+// Desktop
 
 // Responsive
 @media all and (max-width: 1995px) {
