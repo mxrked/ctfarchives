@@ -7,15 +7,19 @@ import { useRouter } from "next/router";
 // Data/Functions/Images Imports
 
 // Component Imports
+import { Navigation } from "@/assets/components/global/Nav/Navigation";
 
 // Style Imports
 import "../assets/styles/modules/Index/Index.module.css";
 
 export default function Home() {
-
   const router = useRouter();
 
   return (
-    ""
-  )
+    <div id="PAGE" className="page overrides_Index full-second">
+      <main id="PAGE_CNT">
+        <Navigation />
+      </main>
+    </div>
+  );
 }
