@@ -18,6 +18,72 @@
 }
 
 // Desktop
+.navigation {
+  width: 100%;
+  height: 200px;
+  @include displayElement(flex, center, center);
+
+  .navigation_inner {
+    max-width: 1400px;
+    @include quickCenter("relative");
+
+    .navigation_logo {
+      text-align: center;
+      margin-bottom: 30px;
+      @include displayElement(inline-flex, center, center);
+      @include selection();
+
+      .icon {
+        font-size: 40px;
+        color: $Tango;
+        margin-top: 5px;
+        margin-right: 15px;
+        @include selection();
+      }
+
+      h1 {
+        font-family: "FG Bold";
+        font-size: $Logo;
+        color: $Tango;
+        @include selection();
+
+        span {
+          color: $Black;
+          @include selection();
+        }
+      }
+    }
+
+    .back_link {
+      @include displayElement(none, center, center);
+      font-family: "FG Semibold";
+      font-size: 20px;
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          .icon,
+          span {
+            color: $Tango;
+          }
+        }
+
+        .icon {
+          margin-right: 10px;
+          margin-bottom: 4px;
+          color: $Tango;
+          @include selection();
+        }
+
+        span {
+          color: $Tundora;
+          @include selection();
+        }
+      }
+    }
+  }
+}
 
 // Responsive
 @media all and (max-width: 1995px) {

@@ -107,6 +107,7 @@ section {
 }
 
 body {
+  background-color: rgba(243, 243, 240, 0.238);
   overflow: hidden;
   white-space: nowrap;
   pointer-events: none;

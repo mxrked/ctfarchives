@@ -9,4 +9,131 @@
 @font-face {
   font-family: "FG Bold";
   src: url("../../../fonts/FG_Bold.otf");
+}
+.navigation {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation .navigation_inner {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navigation .navigation_inner .navigation_logo {
+  text-align: center;
+  margin-bottom: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation .navigation_inner .navigation_logo::-moz-selection {
+  color: #eeeeee;
+  background-color: #f27d24;
+}
+.navigation .navigation_inner .navigation_logo::selection {
+  color: #eeeeee;
+  background-color: #f27d24;
+}
+.navigation .navigation_inner .navigation_logo::-moz-selection {
+  color: #eeeeee;
+  background-color: #f27d24;
+}
+.navigation .navigation_inner .navigation_logo .icon {
+  font-size: 40px;
+  color: #f27d24;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+.navigation .navigation_inner .navigation_logo .icon::-moz-selection {
+  color: #eeeeee;
+  background-color: #f27d24;
+}
+.navigation .navigation_inner .navigation_logo .icon::selection {
+  color: #eeeeee;
+  background-color: #f27d24;
+}
+.navigation .navigation_inner .navigation_logo .icon::-moz-selection {
+  color: #eeeeee;
+  background-color: #f27d24;
+}
+.navigation .navigation_inner .navigation_logo h1 {
+  font-family: "FG Bold";
+  font-size: clamp(1.44rem, 2vw + 1.25rem, 2.15rem);
+  color: #f27d24;
+}
+.navigation .navigation_inner .navigation_logo h1::-moz-selection {
+  color: #eeeeee;
+  background-color: #f27d24;
+}
+.navigation .navigation_inner .navigation_logo h1::selection {
+  color: #eeeeee;
+  background-color: #f27d24;
+}
+.navigation .navigation_inner .navigation_logo h1::-moz-selection {
+  color: #eeeeee;
+  background-color: #f27d24;
+}
+.navigation .navigation_inner .navigation_logo h1 span {
+  color: #000000;
+}
+.navigation .navigation_inner .navigation_logo h1 span::-moz-selection {
+  color: #eeeeee;
+  background-color: #f27d24;
+}
+.navigation .navigation_inner .navigation_logo h1 span::selection {
+  color: #eeeeee;
+  background-color: #f27d24;
+}
+.navigation .navigation_inner .navigation_logo h1 span::-moz-selection {
+  color: #eeeeee;
+  background-color: #f27d24;
+}
+.navigation .navigation_inner .back_link {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-family: "FG Semibold";
+  font-size: 20px;
+}
+.navigation .navigation_inner .back_link a {
+  text-decoration: none;
+}
+.navigation .navigation_inner .back_link a:hover .icon,
+.navigation .navigation_inner .back_link a:hover span {
+  color: #f27d24;
+}
+.navigation .navigation_inner .back_link a .icon {
+  margin-right: 10px;
+  margin-bottom: 4px;
+  color: #f27d24;
+}
+.navigation .navigation_inner .back_link a .icon::-moz-selection {
+  color: #eeeeee;
+  background-color: #f27d24;
+}
+.navigation .navigation_inner .back_link a .icon::selection {
+  color: #eeeeee;
+  background-color: #f27d24;
+}
+.navigation .navigation_inner .back_link a .icon::-moz-selection {
+  color: #eeeeee;
+  background-color: #f27d24;
+}
+.navigation .navigation_inner .back_link a span {
+  color: #414141;
+}
+.navigation .navigation_inner .back_link a span::-moz-selection {
+  color: #eeeeee;
+  background-color: #f27d24;
+}
+.navigation .navigation_inner .back_link a span::selection {
+  color: #eeeeee;
+  background-color: #f27d24;
+}
+.navigation .navigation_inner .back_link a span::-moz-selection {
+  color: #eeeeee;
+  background-color: #f27d24;
 }/*# sourceMappingURL=Nav.module.css.map */
