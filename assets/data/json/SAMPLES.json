@@ -1,0 +1,62 @@
+[
+  {
+    "sampleID": "S_01",
+    "sampleSrc": "sampleSrc1",
+    "sampleName": "Used Car Dealerships",
+    "sampleDesc": "Description for Used Car Dealerships.",
+    "samplePrice": 10000.0,
+    "sampleMonthly": 22.0,
+    "sampleAnnually": 264.0,
+    "sampleImg": "sampleImg1"
+  },
+  {
+    "sampleID": "S_02",
+    "sampleSrc": "sampleSrc2",
+    "sampleName": "Painters",
+    "sampleDesc": "Description for Painters.",
+    "samplePrice": 10000.0,
+    "sampleMonthly": 22.0,
+    "sampleAnnually": 264.0,
+    "sampleImg": "sampleImg2"
+  },
+  {
+    "sampleID": "S_03",
+    "sampleSrc": "sampleSrc3",
+    "sampleName": "Lawn Care",
+    "sampleDesc": "Description for Lawn Care.",
+    "samplePrice": 10000.0,
+    "sampleMonthly": 22.0,
+    "sampleAnnually": 264.0,
+    "sampleImg": "sampleImg3"
+  },
+  {
+    "sampleID": "S_04",
+    "sampleSrc": "sampleSrc4",
+    "sampleName": "Arts and Crafts",
+    "sampleDesc": "Description for Arts and Crafts.",
+    "samplePrice": 10000.0,
+    "sampleMonthly": 22.0,
+    "sampleAnnually": 264.0,
+    "sampleImg": "sampleImg4"
+  },
+  {
+    "sampleID": "S_05",
+    "sampleSrc": "sampleSrc5",
+    "sampleName": "Plumbers",
+    "sampleDesc": "Description for Plumbers.",
+    "samplePrice": 10000.0,
+    "sampleMonthly": 22.0,
+    "sampleAnnually": 264.0,
+    "sampleImg": "sampleImg5"
+  },
+  {
+    "sampleID": "S_06",
+    "sampleSrc": "sampleSrc6",
+    "sampleName": "Pressure Washers",
+    "sampleDesc": "Description for Pressure Washers.",
+    "samplePrice": 10000.0,
+    "sampleMonthly": 22.0,
+    "sampleAnnually": 264.0,
+    "sampleImg": "sampleImg6"
+  }
+]
